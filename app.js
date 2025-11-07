@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Set port and verify_token
 const port = process.env.PORT || 3000;
-const verifyToken = vibecode;
+const verifyToken = 'vibecode';
 
 // Route for GET requests
 app.get('/', (req, res) => {
